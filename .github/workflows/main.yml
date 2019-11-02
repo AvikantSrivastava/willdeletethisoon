@@ -10,5 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
+      run: mkdir lol
+    - name: Run a one-line script
       run: python3 test.py
   
